@@ -2,7 +2,7 @@
 ### This script used to control cleaner script which deltes old files, the script written in Scala(Scala pkg req.)##
 
 DIR=/opt/init.d
-DAEMON="/bin/sh $DIR/cleaner.sh /opt/dump 1>/var/log/cleaner.log"
+DAEMON="/bin/sh $DIR/cleaner.sh /path/to 1>/var/log/cleaner.log"
 DAEMON_NAME=cleaner
 
 DAEMON_USER=root
